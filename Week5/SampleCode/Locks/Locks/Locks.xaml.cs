@@ -38,11 +38,14 @@ namespace Locks
 
             // Calculate average of data:
             float avg = 0.0f;
-            for (int i = 0; i < data.Length; ++i)
+            lock ("key")
             {
-                avg += data[i];
+                for (int i = 0; i < data.Length; ++i)
+                {
+                    avg += data[i];
+                }
+                avg /= data.Length;
             }
-            avg /= data.Length;
 
             // Output length to user
             Dispatcher.BeginInvoke(() =>
@@ -57,15 +60,20 @@ namespace Locks
             Random r = new Random();
 
             // Calculate the new length of data
-            int newLen = (int)(r.NextDouble()*1000000);
+            int newLen = (int)(r.NextDouble()*10000000);
 
             // Allocate space for data
-            data = new float[newLen];
-
-            // Fill data with randomness
-            for (int i = 0; i < data.Length; ++i)
+            lock ("key")
             {
-                data[i] = (float)r.NextDouble();
+                data = new float[newLen];
+
+                // Fill data with randomness
+                for (int i = 0; i < data.Length; ++i)
+                {
+                    data[i] = (float)r.NextDouble();
+                }
+
+                Thread.Sleep(1000);
             }
         }
     }
