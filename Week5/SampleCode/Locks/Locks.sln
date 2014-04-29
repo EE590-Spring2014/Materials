@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locks", "Locks\Locks.csproj", "{C808FE02-E08D-47E5-B933-8D9C388286F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocksFixed", "LocksFixed\LocksFixed.csproj", "{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Debug|ARM.Build.0 = Debug|ARM
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Debug|ARM.Deploy.0 = Debug|ARM
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Debug|x86.ActiveCfg = Debug|x86
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Debug|x86.Build.0 = Debug|x86
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Debug|x86.Deploy.0 = Debug|x86
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Release|ARM.ActiveCfg = Release|ARM
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Release|ARM.Build.0 = Release|ARM
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Release|ARM.Deploy.0 = Release|ARM
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Release|x86.ActiveCfg = Release|x86
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Release|x86.Build.0 = Release|x86
+		{C808FE02-E08D-47E5-B933-8D9C388286F9}.Release|x86.Deploy.0 = Release|x86
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Debug|ARM.Build.0 = Debug|ARM
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Debug|ARM.Deploy.0 = Debug|ARM
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Debug|x86.ActiveCfg = Debug|x86
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Debug|x86.Build.0 = Debug|x86
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Debug|x86.Deploy.0 = Debug|x86
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Release|ARM.ActiveCfg = Release|ARM
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Release|ARM.Build.0 = Release|ARM
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Release|ARM.Deploy.0 = Release|ARM
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Release|x86.ActiveCfg = Release|x86
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Release|x86.Build.0 = Release|x86
+		{3A0C24C0-49D5-422D-81C6-F1BBC471EF17}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
