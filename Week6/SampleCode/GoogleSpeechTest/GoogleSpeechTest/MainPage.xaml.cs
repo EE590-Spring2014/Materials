@@ -197,7 +197,7 @@ namespace GoogleSpeechTest
             try
             {
                 // Construct our HTTP request to the server
-                string url = "https://www.google.com/speech-api/v2/recognize?output=json&lang=en-us&key=AIzaSyCnl6MRydhw_5fLXIdASxkLJzcJh5iX0M4";
+                string url = "https://www.google.com/speech-api/v2/recognize?output=json&lang=en-us&key=AIzaSyC-YKuxG4Pe5Xg1veSXtPPt3S3aKfzXDTM";
                 HttpWebRequest request = WebRequest.CreateHttp(url);
 
                 // Make sure we tell it what kind of data we're sending
