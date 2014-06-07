@@ -65,8 +65,13 @@ Finally, to output a Frame to a TextureGraphInterop object, you may use the
 
 
 // Useful #define's:
+#ifndef min
 #define min(a,b) ((a)>(b)?(b):(a))
+#endif
+
+#ifndef max
 #define max(a,b) ((a)<(b)?(b):(a))
+#endif
 
 class Pixel {
 public:
